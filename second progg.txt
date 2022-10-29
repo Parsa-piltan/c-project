@@ -1,0 +1,16 @@
+using System;
+
+namespace console
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      bool content= true;
+      bool nocontent = false;
+      Console.WriteLine("text is{0}",content);   // Outputs True
+      Console.WriteLine("text is {0}",nocontent);   // Outputs False    
+    }
+  }
+}
+//parsa piltan c# home work programming back test
