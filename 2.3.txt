@@ -1,0 +1,29 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler//parsa piltan
+
+using System;
+
+public class compute age
+{
+    public static void Main(string[] args)
+    {   
+        int a;
+        string input=Console.ReadLine();
+           a =Convert.ToInt32(input);
+        int age=a/365;
+          Console.WriteLine(age);
+        Console.Write("---------------");
+        Console.Write("\n");
+         double month=a/12;
+            Console.WriteLine("the days based on month is:",month);
+            Console.Write("---------------");
+            Console.Write("\n");
+        double weeks=a/7;
+           Console.WriteLine("the days based on weeks is:",weeks);
+            Console.Write("---------------");
+             Console.Write("\n");
+             Console.WriteLine("the days based on dasy is:",a);
+        
+        
+    }  
+}

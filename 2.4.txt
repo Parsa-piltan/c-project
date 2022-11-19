@@ -1,0 +1,50 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class gcd and lcm
+{
+    public static void Main(string[] args)
+    {
+        int a,b;
+
+        string input1=Console.ReadLine();
+
+          a=Convert.ToInt32(input1);
+
+        string input2=Console.ReadLine();
+
+           b=Convert.ToInt32(input2);
+    }
+}//end of Main 
+private static int gcd(int a,int b)
+{
+   
+    while (a != 0 && b != 0)
+    {
+        if (a > b)
+            a %= b;
+        else
+            b %= a;
+    }
+    return a | b;
+}
+ private static int lcm(int x, int y)    
+ {
+  int a; 
+		// a is greater number
+		a = (x > y) ? x : y; 
+		 
+		while (true) 
+			{ 
+				if (a % x == 0 && a % y == 0) 
+					return a; 
+				++a;    
+     
+     
+     
+     
+ }
+ }
+    

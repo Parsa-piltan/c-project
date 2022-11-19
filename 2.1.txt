@@ -1,0 +1,20 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+//parsa piltan
+
+using System;
+
+public class calculation
+{
+    public static void Main(string[] args)
+    {
+       string input1=Console.ReadLine();
+       string input2=Console.ReadLine();
+       int x=Convert.ToInt32(input1);
+       int y=Convert.ToInt32(input2);
+       int power=Math.pow(x,2);
+       int power2=Math.pow(y,3);
+       Console.WriteLine(power,power2)
+       
+    }
+}
